@@ -19,6 +19,15 @@ $ npm -v
 rootで作業してください。
 
 ```bash
+$ npm install -g gulp
+$ gulp -v
+```
+
+### bowerのインストール
+
+rootで作業してください。
+
+```bash
 $ npm install -g bower
 $ bower -v
 ```
@@ -34,7 +43,7 @@ $ npm install
 
 ### 動作確認
 
-artisanで確認。Dockerで環境構築済みであればそっちで確認してもよいです。
+artisanで確認。Dockerで開発環境構築済みであればそっちで確認してもよいです。
 
 ```bash
 $ php artisan serve

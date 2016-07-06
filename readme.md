@@ -1,5 +1,22 @@
 # la-sample
 
+## 開発ツールについて
+
+ソースコードはコーディング規約を統一するためphp-cs-fixerで自動整形します。基本的にどのような形で実行してもいいですが、AtomのPluginとして実行する形を説明します。
+
+### Atomのインストール
+
+https://atom.io/
+
+「Download For Mac」ボタンよりインストールしてください。
+
+### Atomでphp-cs-fixerを利用する
+
+下記サイトを参考に導入してください。
+
+http://qiita.com/hachijirou/private/ea00005ff4910f89d6bf
+
+
 ## ReactとReduxとBootstrapの導入
 
 ReactとReduxを使って、フロントエンド開発を可能にするためのビルド環境を構築します。

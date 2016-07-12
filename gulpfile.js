@@ -16,5 +16,13 @@ var elixir = require('laravel-elixir');
 //});
 
 elixir(function(mix) {
-  mix.browserify('sample.jsx');
+     // ES2015のコンバート
+     // JSXシンタックスをJavascriptにコンバート
+     // 他に何かやってるのかな…?
+  mix.browserify('sample.jsx')
+     .browserify('sampleList.jsx')
+     // バージョニング
+     // 更新が確実にブラウザに反映されるようになる
+     .version(['js/sample.js',
+                'js/sampleList.js']);
 });

@@ -3,7 +3,7 @@
 @section('title', 'Page Title')
 
 @section('content')
-    <p>ここが本文のコンテンツ</p>
+    <h2>Ajaxサンプル</h2>
     <div id="container"></div>
-    <script src="{{ elixir("js/sample.js") }}"></script>
+    <script src="{{ elixir("js/sampleList.js") }}"></script>
 @endsection

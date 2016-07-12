@@ -15,4 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// sample01
 Route::get('sample/redux/show', 'SampleController@showRedux');
+
+// sample02
+Route::get('sample/redux/hoge', 'SampleController@hogeRedux');
+Route::get('sample/redux/list', 'SampleController@listRedux');
